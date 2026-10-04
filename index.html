@@ -9,10 +9,11 @@
 </head>
 <body>
 <header>
+  <div class="lang"><a href="index_en.html" hreflang="en">EN</a> <span class="cur">TR</span></div>
   <h1>UX34 KOMPLKE</h1>
   <p class="sub">Şarkılar, sesler ve karakterlerden kurulu bir evren.</p>
   <span class="badge">AI ile üretilmiştir</span>
-  <nav><a href="#evren">Evren</a><a href="#karakterler">Karakterler</a><a href="#yayinlar">Yayınlar</a><a href="#iletisim">İletişim</a><a href="epk.html">Basın Kiti</a></nav>
+  <nav><a href="#evren">Evren</a><a href="#karakterler">Karakterler</a><a href="#iletisim">İletişim</a><a href="epk.html">Basın Kiti</a></nav>
 </header>
 <main>
   <section id="evren">
@@ -25,30 +26,31 @@
     <h2>Karakterler</h2>
     <div class="grid">
       <article class="card"><h3>KOMPLKE</h3><p>Evrenin merkezi: İngilizce şarkılar, Türkçe dublaj, antrasit ve altın bir dünya.</p>
-        <div class="links"><a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a> <span class="sub">(bağlantılar eklenecek)</span></div></article>
-      <article class="card"><h3>Kai Atmos</h3><p>Galata'nın yağmurlu camlarından, lacivert ve amber tonlarında geceler.</p>
-        <div class="links"><a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a> <span class="sub">(bağlantılar eklenecek)</span></div></article>
+        <div class="links"><a href="https://www.tiktok.com/@komplke" target="_blank" rel="noopener">TikTok</a></div></article>
+      <article class="card"><h3>Kai Atmos</h3><p>Galata'nın yağmurlu camlarından, lacivert ve amber tonlarında geceler.</p></article>
       <article class="card"><h3>Mira Sessiz</h3><p>Ayrılık şarkıları: dumanlı vokal, gri tuğla duvarlar, siyah ve gümüş.</p>
-        <div class="links"><a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a> <span class="sub">(bağlantılar eklenecek)</span></div></article>
-      <article class="card"><h3>Asi Vural</h3><p>Soğuk ve ölçülü bir drill sesi; şehir, duvar, siyah-kırmızı kontrast.</p>
-        <div class="links"><a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a> <span class="sub">(bağlantılar eklenecek)</span></div></article>
-      <article class="card"><h3>Veda Kaya</h3><p>İstanbul'un son crooner'ı: naylon gitar eşliğinde sıcak, hırıltılı bir balad sesi.</p>
-        <div class="links"><a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">TikTok</a> <span class="sub">(bağlantılar eklenecek)</span></div></article>
+        <div class="links"><a href="https://www.instagram.com/mirasessiz" target="_blank" rel="noopener">Instagram</a> · <a href="https://linktr.ee/mirasessiz" target="_blank" rel="noopener">Linktree</a></div></article>
+      <article class="card"><h3>Asi Vural</h3><p>Soğuk ve ölçülü bir drill sesi; şehir, duvar, siyah-kırmızı kontrast. Kapüşon hep takılı.</p></article>
+      <article class="card"><h3>Veda Kaya</h3><p>İstanbul'un son crooner'ı: naylon gitar eşliğinde sıcak, hırıltılı bir balad sesi.</p></article>
     </div>
   </section>
 
-  <section id="yayinlar">
-    <h2>Yayınlar</h2>
-    <div class="ph">Spotify gömme alanı (çalma listesi eklenecek)</div>
-    <div class="ph" style="margin-top:12px">YouTube gömme alanı (video eklenecek)</div>
+  <!-- Spotify: SPOTIFY_URL bos oldugu surece bolum gizli -->
+  <section id="yayinlar" hidden>
+    <h2>Spotify</h2>
+    <p><a id="spotify-link" href="#" target="_blank" rel="noopener">Spotify</a></p>
   </section>
 
   <section id="iletisim">
     <h2>İletişim / Marka İşbirliği</h2>
-    <p>İşbirliği ve basın talepleri için: <strong>[e-posta adresi eklenecek]</strong></p>
+    <p>İşbirliği ve basın talepleri için: <strong><a href="mailto:netdefiance.records@gmail.com">netdefiance.records@gmail.com</a></strong></p>
     <p><a href="epk.html">Basın kitini görüntüle →</a></p>
   </section>
+<script>
+var SPOTIFY_URL="";
+if(SPOTIFY_URL){var s=document.getElementById("yayinlar");document.getElementById("spotify-link").href=SPOTIFY_URL;s.hidden=false;}
+</script>
 </main>
-<footer>UX34 KOMPLKE · AI ile üretilmiştir · Telifli içerik kullanılmamıştır</footer>
+<footer>UX34 KOMPLKE · AI ile üretilmiştir<br>AI-generated. No copyrighted material used.</footer>
 </body>
 </html>
