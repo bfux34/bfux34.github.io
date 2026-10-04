@@ -25,3 +25,5 @@ nav{margin-top:12px;font-size:.9rem;display:flex;flex-wrap:wrap;justify-content:
 .lang a{margin-right:4px}
 .lang .cur{color:var(--mute)}
 footer{text-align:center;color:var(--mute);font-size:.85rem;padding:24px 16px}
+.btn{display:inline-block;padding:10px 20px;border:1px solid var(--gold);border-radius:999px;text-decoration:none;font-weight:600}
+.btn:hover{background:var(--gold);color:var(--bg)}
