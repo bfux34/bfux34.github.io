@@ -1,0 +1,26 @@
+{
+  "youtube": "https://www.youtube.com/@komplke",
+  "tiktok": "https://www.tiktok.com/@komplke",
+  "instagram_mira": "https://www.instagram.com/mirasessiz/",
+  "linktree_mira": "https://linktr.ee/mirasessiz",
+  "linktree_komplke": "https://linktr.ee/komplke",
+  "spotify_artist_mira": "",
+  "spotify_artist_komplke": "",
+  "spotify_artist_atmos34": "",
+  "spotify_artist_asi34": "",
+  "spotify_artist_veda34": "",
+  "spotify_track_kamn": "",
+  "apple_artist_mira": "",
+  "releases": [
+    {"title": "Key Around My Neck", "artist": "Mira Sessiz", "url": ""},
+    {"title": "Annem Uyumazdı", "artist": "Mira Sessiz", "url": ""},
+    {"title": "İyiyim Diyorum", "artist": "Mira Sessiz", "url": ""},
+    {"title": "Eski Fotoğraflar", "artist": "Mira Sessiz", "url": ""},
+    {"title": "Diz Çökmem", "artist": "ASI34", "url": ""},
+    {"title": "Liste", "artist": "ASI34", "url": ""},
+    {"title": "Babamın Elleri", "artist": "VEDA34", "url": ""},
+    {"title": "Bir Milletin Sabahı", "artist": "ATMOS34", "url": ""},
+    {"title": "Ebediyet", "artist": "ATMOS34", "url": ""},
+    {"title": "The Whistle of Peace", "artist": "ATMOS34", "url": ""}
+  ]
+}
